@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<h3>Notas del ejericio 1</h3>
+<p align="justify"> 
+    Cuando las resistencias se conectan en serie, la misma corriente pasa a través de cada resistencia de la cadena y
+La resistencia total, RT, del circuito debe ser igual a la 
+suma de todas las resistencias individuales sumadas. Eso es: RT = R1 + R2 + R3 ...
+Por lo tanto, hay que desarrollar una función que tome una serie de valores de resistencia que
+están conectados en serie y que calcule la resistencia total de el circuito en ohmios. (Nota: El ohmio es la unidad estándar de
+Resistencia eléctrica en el Sistema Internacional de Unidades (SI).)
+</p>
+<br>
+<h3>Notas del ejercicio 3</h3>
+<h2>RECORDAR DARLE FORMATO A ESTAS NOTAS PARA MAYOR CLARIDAD</h2>
+<p align="justify">
+    Paso 1: Definir una función que tome una lista de nombres.
+    Paso 2: Inicializar una variable para almacenar las primeras letras.
+    Paso 3: Iterar sobre cada miembro en la lista. Para este paso se tomaron las siguentes consideraciones:
+    "for" se utiliza para recorrer todos los elementos de la lista members. 
+    //let i = 0;Esta parte inicializa una variable i con el valor 0.
+     La variable i se usa como índice para acceder a los elementos de la lista members. 
+     RECORDAR QUE! "i < members.length" es la condición que se evalúa antes de cada iteración del bucle.
+      Mientras i sea menor que members.length (la longitud de la lista), el bucle continuará ejecutándose; no ponemos "<="" para evitar un error de "ÍNDICE FUERA DE LOS LÍMITIES".
+    Paso 4: Añadir la primera letra del nombre actual a secretName. Para esto:
+    // "members[i]" accede al miembro actual de la lista conforme al índice que tenga. Por otro lado el siguiente valor de [0] accede al primer carácter del nombre actual. Por ejemplo, 'Alice'[0] es 'A'. Finalmente el operador += concatena este carácter al final de secretName Ver:https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Operators/Addition_assignment.
+    Paso 5: Retornar el nombre de la sociedad secreta con la variable que definimos al inicio
+</p>
+<h4>Método simplificado (Ejercicio 3)</h4>
+<p align="justify">
+    En este caso, map crea un nuevo array que contiene solo la primera letra de cada nombre, y join combina esas letras en un solo string.
+</p>
+<p>
+    <strong>Método map:</strong> El método map() crea un nuevo array con los resultados de la llamada a la función indicada aplicados a cada uno de sus elementos.
+</p>
+<p align="justify">
+    <strong>Método join:</strong> Crea y devuelve una nueva cadena concatenando todos los elementos de esta matriz, separados por comas o una cadena separadora especificada. Si la matriz tiene solo un elemento, ese elemento se devolverá sin usar el separador.
+</p>
+    <script src="/Práctica Javascript/Tarea JS-04 - Arrays and Loops/Tarea JS-04.js"></script>
+    <script src="/Práctica Javascript/Tarea JS-04 - Arrays and Loops/Tarea JS-04(2).js"></script>
+</body>
+</html>
